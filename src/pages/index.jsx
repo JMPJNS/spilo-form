@@ -27,7 +27,7 @@ export default function Index() {
     <div className="flex h-full flex-col">
       <header className="flex flex-none items-center justify-between border-b border-gray-200 py-4 px-6">
         <h1 className="text-lg font-semibold text-gray-900">
-          <time dateTime="2022-01">January 2022</time>
+          <time dateTime="2023-01">January 2023</time>
         </h1>
         <div className="flex items-center">
           <div className="flex items-center rounded-md shadow-sm md:items-stretch">
@@ -371,7 +371,7 @@ export default function Index() {
                   >
                     <p className="order-1 font-semibold text-blue-700">1 Hour Vod Review Slot</p>
                     <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">10:00 AM</time>
+                      <time dateTime="2023-01-12T06:00">10:00 AM</time>
                     </p>
                   </a>
                 </li>
@@ -383,7 +383,7 @@ export default function Index() {
                   >
                     <p className="order-1 font-semibold text-blue-700">2 Hour Vod Review Slot</p>
                     <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">11:00 AM</time>
+                      <time dateTime="2023-01-12T06:00">11:00 AM</time>
                     </p>
                   </a>
                 </li>
@@ -395,7 +395,7 @@ export default function Index() {
                   >
                     <p className="order-1 font-semibold text-blue-700">2 Hour Vod Review Slot</p>
                     <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">11:00 AM</time>
+                      <time dateTime="2023-01-12T06:00">11:00 AM</time>
                     </p>
                   </a>
                 </li>
@@ -466,9 +466,9 @@ export default function Index() {
                           </div>
                         </div>
                         <div/>
-                        <div class="w-full px-3">
+                        <div class="w-full px-3 mt-8">
                           <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-coaching-type">
-                            Are you a subscriber to Spilo
+                            Are you subscribed to Spilo
                           </label>
                           <div class="relative">
                             <div>
