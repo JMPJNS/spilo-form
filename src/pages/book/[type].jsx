@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, EllipsisHorizontalIcon } from '@heroicons/react/20/solid'
 import { Menu, Transition } from '@headlessui/react'
 import React from "react"
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -157,8 +158,10 @@ export default function Book() {
   return (
     <div className="flex h-full flex-col">
       <header className="flex flex-none items-center justify-between border-b border-gray-200 py-4 px-6">
-        <h1 className="text-lg font-semibold text-gray-900">
-          <time dateTime="2023-01">January 2023</time>
+        <Link href="/" legacyBehavior> Home </Link>
+        <h1 className="flex flex-col items-center text-lg text-gray-900">
+          <time className='font-semibold' dateTime="2023-01">January 2023</time>
+          <p>Info about {type} coaching here...</p>
         </h1>
         <div className="flex items-center">
           <div className="flex items-center rounded-md shadow-sm md:items-stretch">
